@@ -18,7 +18,7 @@ class CreatePostsTable extends Migration
             $table->timestamps();
             $table->integer('post_author');
             $table->date('post_date');
-            $table->string('post_contact');
+            $table->string('post_content');
             $table->string('post_title');
             $table->string('post_status');
             $table->string('post_name');
